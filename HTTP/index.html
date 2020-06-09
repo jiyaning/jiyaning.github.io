@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTTP协议 | web前端开发</title>
+    <meta name="description" content="个人博客">
+    <meta name="generator" content="VuePress 1.3.0">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.46bdbf49.css" as="style"><link rel="preload" href="/assets/js/app.549ab972.js" as="script"><link rel="preload" href="/assets/js/2.ecc2fa6f.js" as="script"><link rel="preload" href="/assets/js/6.f0f6a59d.js" as="script"><link rel="prefetch" href="/assets/js/10.4ce75836.js"><link rel="prefetch" href="/assets/js/11.4771b230.js"><link rel="prefetch" href="/assets/js/12.f03499bf.js"><link rel="prefetch" href="/assets/js/13.2c65fd33.js"><link rel="prefetch" href="/assets/js/14.a5be85de.js"><link rel="prefetch" href="/assets/js/15.428dd0c3.js"><link rel="prefetch" href="/assets/js/16.4b3bd144.js"><link rel="prefetch" href="/assets/js/17.0dd718db.js"><link rel="prefetch" href="/assets/js/18.0a392d7a.js"><link rel="prefetch" href="/assets/js/19.a3f55a97.js"><link rel="prefetch" href="/assets/js/20.46e8e003.js"><link rel="prefetch" href="/assets/js/21.9a036560.js"><link rel="prefetch" href="/assets/js/22.4ff0af16.js"><link rel="prefetch" href="/assets/js/23.cce2bed4.js"><link rel="prefetch" href="/assets/js/24.12c7b7d3.js"><link rel="prefetch" href="/assets/js/25.644b21f7.js"><link rel="prefetch" href="/assets/js/26.ff2f0716.js"><link rel="prefetch" href="/assets/js/27.02ade99e.js"><link rel="prefetch" href="/assets/js/28.57829572.js"><link rel="prefetch" href="/assets/js/29.ca9097ef.js"><link rel="prefetch" href="/assets/js/3.49ef6df2.js"><link rel="prefetch" href="/assets/js/30.98cc88b4.js"><link rel="prefetch" href="/assets/js/31.98cff12d.js"><link rel="prefetch" href="/assets/js/32.de6c6cb5.js"><link rel="prefetch" href="/assets/js/4.e43a75b1.js"><link rel="prefetch" href="/assets/js/5.fffb226e.js"><link rel="prefetch" href="/assets/js/7.fd46d82f.js"><link rel="prefetch" href="/assets/js/8.0a7d41ba.js"><link rel="prefetch" href="/assets/js/9.20648608.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.46bdbf49.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">web前端开发</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="HTML" class="dropdown-title"><span class="title">HTML</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/html/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/html/html5/" class="nav-link">
+  HTML5
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS" class="dropdown-title"><span class="title">CSS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/css/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/css/css3/" class="nav-link">
+  CSS3
+</a></li></ul></div></div><div class="nav-item"><a href="/Flex/" class="nav-link">
+  Flex
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/js基础/" class="nav-link">
+  JS基础
+</a></li><li class="dropdown-item"><!----> <a href="/js/js高级/" class="nav-link">
+  JS高级
+</a></li><li class="dropdown-item"><!----> <a href="/js/ES6/" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/js/正则表达式/" class="nav-link">
+  正则
+</a></li></ul></div></div><div class="nav-item"><a href="/jquery/" class="nav-link">
+  Jquery
+</a></div><div class="nav-item"><a href="/Web API/" class="nav-link">
+  Web API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Ajax" class="dropdown-title"><span class="title">Ajax</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ajax/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/ajax/axios/" class="nav-link">
+  Axios
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/vue基础/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/vue/vue核心/" class="nav-link">
+  vue核心
+</a></li><li class="dropdown-item"><!----> <a href="/vue/vuex/" class="nav-link">
+  vuex
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="React" class="dropdown-title"><span class="title">React</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/react/react基础/" class="nav-link">
+  react基础
+</a></li><li class="dropdown-item"><!----> <a href="/react/react核心/" class="nav-link">
+  react核心
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node" class="dropdown-title"><span class="title">Node</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/node/node/" class="nav-link">
+  node
+</a></li><li class="dropdown-item"><!----> <a href="/node/Express/" class="nav-link">
+  Express
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mysql/ .html" class="nav-link">
+  mysql
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTTP/" class="nav-link router-link-exact-active router-link-active">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/websocket/" class="nav-link">
+  webSocket
+</a></li><li class="dropdown-item"><!----> <a href="/会话技术/" class="nav-link">
+  会话技术
+</a></li><li class="dropdown-item"><!----> <a href="/模板引擎/" class="nav-link">
+  模板引擎
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/jiyaning" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="HTML" class="dropdown-title"><span class="title">HTML</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/html/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/html/html5/" class="nav-link">
+  HTML5
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="CSS" class="dropdown-title"><span class="title">CSS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/css/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/css/css3/" class="nav-link">
+  CSS3
+</a></li></ul></div></div><div class="nav-item"><a href="/Flex/" class="nav-link">
+  Flex
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/js基础/" class="nav-link">
+  JS基础
+</a></li><li class="dropdown-item"><!----> <a href="/js/js高级/" class="nav-link">
+  JS高级
+</a></li><li class="dropdown-item"><!----> <a href="/js/ES6/" class="nav-link">
+  ES6
+</a></li><li class="dropdown-item"><!----> <a href="/js/正则表达式/" class="nav-link">
+  正则
+</a></li></ul></div></div><div class="nav-item"><a href="/jquery/" class="nav-link">
+  Jquery
+</a></div><div class="nav-item"><a href="/Web API/" class="nav-link">
+  Web API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Ajax" class="dropdown-title"><span class="title">Ajax</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/ajax/ajax/" class="nav-link">
+  Ajax
+</a></li><li class="dropdown-item"><!----> <a href="/ajax/axios/" class="nav-link">
+  Axios
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/vue基础/" class="nav-link">
+  vue基础
+</a></li><li class="dropdown-item"><!----> <a href="/vue/vue核心/" class="nav-link">
+  vue核心
+</a></li><li class="dropdown-item"><!----> <a href="/vue/vuex/" class="nav-link">
+  vuex
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="React" class="dropdown-title"><span class="title">React</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/react/react基础/" class="nav-link">
+  react基础
+</a></li><li class="dropdown-item"><!----> <a href="/react/react核心/" class="nav-link">
+  react核心
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node" class="dropdown-title"><span class="title">Node</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/node/node/" class="nav-link">
+  node
+</a></li><li class="dropdown-item"><!----> <a href="/node/Express/" class="nav-link">
+  Express
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/mysql/ .html" class="nav-link">
+  mysql
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTTP/" class="nav-link router-link-exact-active router-link-active">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/websocket/" class="nav-link">
+  webSocket
+</a></li><li class="dropdown-item"><!----> <a href="/会话技术/" class="nav-link">
+  会话技术
+</a></li><li class="dropdown-item"><!----> <a href="/模板引擎/" class="nav-link">
+  模板引擎
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/jiyaning" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>HTTP协议</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/HTTP/#_1-通信" class="sidebar-link">1. 通信</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/HTTP/#_2-通信协议" class="sidebar-link">2. 通信协议</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/HTTP/#_2-1-http协议" class="sidebar-link">2.1. HTTP协议</a></li><li class="sidebar-sub-header"><a href="/HTTP/#_2-2-http请求消息" class="sidebar-link">2.2. HTTP请求消息</a></li></ul></li><li><a href="/HTTP/#_3-http的请求报文和响应报文" class="sidebar-link">3. HTTP的请求报文和响应报文</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/HTTP/#_3-1-请求报文" class="sidebar-link">3.1. 请求报文</a></li><li class="sidebar-sub-header"><a href="/HTTP/#_3-2-响应报文" class="sidebar-link">3.2. 响应报文</a></li></ul></li><li><a href="/HTTP/#_4-http请求方法" class="sidebar-link">4. HTTP请求方法</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/HTTP/#_5-http响应状态码" class="sidebar-link">5. HTTP响应状态码</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="http协议"><a href="#http协议" class="header-anchor">#</a> HTTP协议</h1> <h2 id="_1-通信"><a href="#_1-通信" class="header-anchor">#</a> 1. 通信</h2> <ul><li><p>通信，就是信息的传递和交换。</p></li> <li><p>通信三要素：</p> <ul><li>通信的主体</li> <li>通信的内容</li> <li>通信的方式</li></ul></li></ul> <h2 id="_2-通信协议"><a href="#_2-通信协议" class="header-anchor">#</a> 2. 通信协议</h2> <ul><li><p>通信协议（Communication Protocol）是指通信的双方完成通信所必须遵守的规则和约定。</p></li> <li><p>通俗理解：通信双方采用约定好的格式来发送和接收消息，这种事先约定好的通信格式，就叫做通信协议。</p></li> <li><p>客户端与服务器之间要实现网页内容的传输，则通信的双方必须遵守网页内容的传输协议。</p></li> <li><p>网页内容的传输协议又叫做超文本传输协议（HyperText Transfer Protocol） ，简称 HTTP 协议。</p></li></ul> <h3 id="_2-1-http协议"><a href="#_2-1-http协议" class="header-anchor">#</a> 2.1. HTTP协议</h3> <ul><li><p>HTTP 协议即超文本传输协议 (HyperText Transfer Protocol) ，它规定了客户端与服务器之间进行网页内容传输时，所必须遵守的传输格式。</p></li> <li><p>HTTP 协议采用了 请求/响应 的交互模型。</p></li></ul> <h3 id="_2-2-http请求消息"><a href="#_2-2-http请求消息" class="header-anchor">#</a> 2.2. HTTP请求消息</h3> <ul><li>由于 HTTP 协议属于客户端浏览器和服务器之间的通信协议。因此，客户端发起的请求叫做 HTTP 请求，客户端发送到服务器的消息，叫做 HTTP 请求消息。</li></ul> <blockquote><p>注意：HTTP 请求消息又叫做 HTTP 请求报文。</p></blockquote> <h2 id="_3-http的请求报文和响应报文"><a href="#_3-http的请求报文和响应报文" class="header-anchor">#</a> 3. HTTP的请求报文和响应报文</h2> <blockquote><p>内容传输格式分为<strong>请求报文</strong>和<strong>响应报文</strong>两种</p></blockquote> <h3 id="_3-1-请求报文"><a href="#_3-1-请求报文" class="header-anchor">#</a> 3.1. 请求报文</h3> <ul><li>请求报文:客户端给服务端发送请求时发送的那些内容</li></ul> <blockquote><p><strong>请求报文由4部分组成</strong>:</p></blockquote> <ul><li><strong>请求行</strong>(request line )
+<ul><li>3部分组成：  请求方式           请求地址URL           HTTP协议版本</li></ul></li> <li><strong>请求头</strong>：<strong>用来保存客户端的相关信息</strong>(大部分是浏览器自动设置的)
+<ul><li>Host：主机地址，服务器域名</li> <li>User-Agent：用户代理字符串，客户端的一些浏览器和系统信息</li> <li>Content-Type：发送的请求体的内容类型(数据格式)</li></ul></li> <li>空行：请求头字段的后面是一个空行，通知服务器请求头部至此结束，用来分隔请求头部与请求体。</li> <li><strong>请求体</strong>：<strong>就是通过 POST 方式发送的请求参数</strong> <ul><li><strong>get请求的参数在url中发送，请求体为空</strong>，只有 POST 请求才有请求体，GET 请求没有请求体</li> <li><strong>post请求的参数在请求体中</strong>，所以需要设置Content-Type</li></ul></li></ul> <h3 id="_3-2-响应报文"><a href="#_3-2-响应报文" class="header-anchor">#</a> 3.2. 响应报文</h3> <ul><li>响应消息就是服务器响应给客户端的消息内容，也叫作响应报文。</li></ul> <blockquote><p>响应报文由4部分组成:</p></blockquote> <ul><li><strong>状态行</strong> <ul><li>由3部分组成： HTTP 协议版本         状态码        状态码的描述文本</li></ul></li> <li><strong>响应头</strong>：用来<strong>保存服务端的相关信息</strong>(有的是服务端自动设置的，有的是后端自己设置的)
+<ul><li>Content-Type: 响应体的内容类型</li></ul></li> <li>空行:分隔响应头部与响应体</li> <li><strong>响应体</strong> <ul><li><strong>服务端发送给客户端的响应内容</strong>（无论什么请求方式，响应的数据都在响应体中保存）</li> <li>例如在jQuery中接收的res就是响应体</li></ul></li></ul> <h2 id="_4-http请求方法"><a href="#_4-http请求方法" class="header-anchor">#</a> 4. HTTP请求方法</h2> <blockquote><p>最常用的是GET和POST</p></blockquote> <ul><li>GET 用来获取数据（查询）</li> <li>POST 用来发送数据（新增）</li> <li>PUT 用来修改数据（修改）</li> <li>DELETE  用来删除数据（删除）</li></ul> <h2 id="_5-http响应状态码"><a href="#_5-http响应状态码" class="header-anchor">#</a> 5. HTTP响应状态码</h2> <blockquote><p>HTTP 响应状态码（HTTP Status Code），用来标识响应的状态。</p> <p>通过一些数字表示本次请求的状态：除了状态码还会配有状态文本</p></blockquote> <ul><li><p><strong>1xx</strong> 信息，服务器收到请求，需要请求者继续执行操作</p></li> <li><p><strong>2xx 成功</strong>，操作被成功接收并处理</p> <ul><li>常见的是200，请求成功。</li> <li>201，已创建</li></ul></li> <li><p><strong>3xx 重定向</strong>，需要进一步的操作以完成请求</p> <ul><li>(请求a.html，服务端认为a.html有问题，没法给看，将请求转给了b.html)</li> <li>常见：304 读取缓存的内容</li> <li>301  永久重定向</li> <li>302  临时重定向</li></ul></li> <li><p><strong>4xx 客户端错误</strong>，请求包含语法错误或无法完成请求</p> <ul><li>404    Not Found      服务器无法根据客户端的请求找到资源</li> <li>408    请求超时</li> <li>401     没有访问权限</li></ul></li> <li><p><strong>5xx 服务器错误</strong>，服务器在处理请求的过程中发生了错误</p> <ul><li>500     服务器内部错误，无法完成请求</li> <li>501     服务器不支持该请求方法</li> <li>503     服务器由于超载或者系统维护，暂时无法处理客户端请求</li></ul></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.549ab972.js" defer></script><script src="/assets/js/2.ecc2fa6f.js" defer></script><script src="/assets/js/6.f0f6a59d.js" defer></script>
+  </body>
+</html>
